@@ -2,7 +2,7 @@
 This JavaScript library provides a wrapper to make working with user made changes to HTML form elements (INPUT, SELECT, TEXTAREA) easier, particularly when using AJAX.
 The library also provides a function to serialize form elements to an object and if needed with unchanged elements filtered out.
 
-##Working with form elements
+## Working with form elements
 ```
 var $name = $i(document.getElementById("name"));
 
@@ -19,7 +19,7 @@ $name.makeDefault();
 // makes the current value the default.
 ```
 
-##Serializing form elements
+## Serializing form elements
 The 2 arguments of the serialization function are the form elements and optionally whether unchanged elements should be filtered out (true) or not.
 Hidden inputs are always included, disabled elements are always excluded and readonly elements are filterable like any other elements.
 ```
